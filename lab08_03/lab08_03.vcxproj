@@ -115,7 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="knapsackProblemByRecursion.cpp" />
+    <ClCompile Include="libExceptions.cpp" />
+    <ClCompile Include="libFiles.cpp" />
     <ClCompile Include="Podwika_Grzegorz_Program_03.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="knapsackProblemByRecursion.h" />
+    <ClInclude Include="libExceptions.h" />
+    <ClInclude Include="libFiles.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
